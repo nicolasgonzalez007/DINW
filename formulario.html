@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="datos.php" method="get">
+     <!--asignatura
+        profesor
+        horas
+        informacion-->
+         <input type="radio" name="asignatura" value="IPE2"> Programacion
+        <input type="radio" name="asignatura" value="Cliente"> Base de datos
+        <input type="radio" name="asignatura" value="Servidor"> LMSGI
+        <input type="radio" name="asignatura" value="InterfaceWeb"> SSII
+        <input type="radio" name="asignatura" value="PIMOD"> EED
+        <input type="radio" name="asignatura" value="PIMOD"> Ingles
+        <input type="radio" name="asignatura" value="PIMOD"> IPE1
+        
+        
+        <br><br>
+        <select name="profesor" id="profesor">
+            <option value="profesor1">Isa</option>
+            <option value="profesor2">Paco</option>
+            <option value="profesor3">Alberto</option>
+            <option value="profesor3">Chema</option>
+            <option value="profesor3">Santiago</option>
+            <option value="profesor3">Tomás</option>
+        </select>
+        <br><br>
+        <input type="number" name="horas" id="horas" placeholder="Horas">
+        <br><br>
+        <textarea name="informacion" id="informacion" placeholder="Información adicional"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+        
+</body>
+</html>
