@@ -7,6 +7,11 @@
     echo "Profesores: ".$profesores."<br>";
     echo "Horas: ".$horas."<br>";
     echo "Información: ".$info."<br>";
-    
 
+
+    //Version con print_r
+    print_r($asignatura);
+    print_r($profesores);
+    print_r($horas);
+    print_r($info);
 ?>
