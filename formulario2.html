@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #ccc;
+            width: 350px;
+        }
+        input[type="submit"] {
+            background-color: blue; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        input[type="submit"] {
+            background-color: rgb(157, 243, 142) !important; 
+        }
+
+        
+        #horas, #informacion, #profesor {
+            width: 100%;
+            border: 1px solid black; 
+        }
+
+        
+        input, textarea, select {
+            border: 2px solid green !important;
+            margin-bottom: 10px !important;
+        }
+        </style>
+</head>
+<body>
+    <form action="datos2.php" method="get">
+     <!--asignatura
+        profesor
+        horas
+        informacion-->
+        <input type="radio" name="asignatura" value="Programacion"> Programacion
+        <input type="radio" name="asignatura" value="BBDD"> Base de datos
+        <input type="radio" name="asignatura" value="LMSGI"> LMSGI
+        <input type="radio" name="asignatura" value="SSII"> SSII
+        <input type="radio" name="asignatura" value="EED"> EED
+        <input type="radio" name="asignatura" value="Ingles"> Ingles
+        <input type="radio" name="asignatura" value="IPE1"> IPE1
+        <br><br>
+        <input type="checkbox" name="profesor[]" value="Isa">Isa
+        <input type="checkbox" name="profesor[]" value="Paco">Paco
+        <input type="checkbox" name="profesor[]" value="Alberto">Alberto
+        <input type="checkbox" name="profesor[]" value="Chema">Chema
+        <input type="checkbox" name="profesor[]" value="Santiago">Santiago
+        <input type="checkbox" name="profesor[]" value="Tomás">Tomás
+        <br><br>
+        <input type="text" name="horas" id="horas" placeholder="Horas">
+        <br><br>
+        <textarea name="informacion" id="informacion" placeholder="Información adicional"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
