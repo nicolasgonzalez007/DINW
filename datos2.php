@@ -11,4 +11,5 @@
     /*echo "Profesor: ".$profesores."<br>";*/
     echo "Horas: " . $horas . "<br>";
     echo "Informacion: " . $info;
+
 ?>
