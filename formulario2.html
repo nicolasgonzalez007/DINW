@@ -6,42 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>Document</title>
     <style>
-    body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
         form {
-            background-color: #f4f4f4;
-            padding: 20px;
-            border: 1px solid #ccc;
-            width: 350px;
-        }
-        input[type="submit"],button {
-            background-color: blue; 
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
+            width: 400px;           
+            padding: 20px;          
+            margin: 30px;           
+            border: 2px solid black;
         }
 
         
-        input[type="submit"],button {
-            background-color: rgb(157, 243, 142) !important; 
+        input[type="radio"], input[type="checkbox"] {
+            margin-left: 10px;      
+            margin-right: 5px;      
         }
 
         
-        #horas, #informacion, #profesor {
-            width: 100%;
-            border: 1px solid black; 
+        #horas {
+            width: 200px;           
+            height: 25px;           
+            padding-left: 15px;     
+            border: 2px solid blue;
+            margin-bottom: 10px;    
         }
 
         
-        input, textarea, select ,button{
-            border: 2px solid green !important;
-            margin-bottom: 10px !important;
+        #informacion {
+            width: 350px;           
+            height: 100px;          
+            padding: 15px;          
+            border: 2px solid green;
+            margin-bottom: 15px;
         }
-        </style>
+
+        input[type="submit"], button[type="reset"] {
+            width: 100px;
+            height: 40px;
+            padding: 10px;          
+            margin-right: 15px;     
+            border: 2px solid red;
+        }
+    </style>
 </head>
 <body>
     <form action="datos2.php" method="get">
