@@ -5,56 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>Document</title>
-    <style>
-        /*440+(20x2)+(2x2)=484px*/
-        form {
-            width: 440px;           
-            padding: 20px;                   
-            border: 2px solid black;
-        }
-  
-
-
-        /*200+15+2x2=219*/
-        #horas {
-            width: 200px;           
-            height: 25px;           
-            padding-left: 15px;     
-            border: 2px solid blue;
-            
-        }
-
-        /*350+(15x2)+(2x2)=394*/
-        #informacion {
-            width: 350px;           
-            height: 100px;          
-            padding: 15px;          
-            border: 2px solid green;
-            
-        }
-        
-        
-    </style>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <form action="datos2.php" method="get">
+        <h1>FORMULARIO PROFESORES</h1>
      <!--asignatura
         profesor
         horas
         informacion-->
         <input type="radio" name="asignatura" value="Programacion"> Programacion
+        <br>
         <input type="radio" name="asignatura" value="BBDD"> Base de datos
+        <br>
         <input type="radio" name="asignatura" value="LMSGI"> LMSGI
+        <br>
         <input type="radio" name="asignatura" value="SSII"> SSII
+        <br>
         <input type="radio" name="asignatura" value="EED"> EED
+        <br>
         <input type="radio" name="asignatura" value="Ingles"> Ingles
+        <br>
         <input type="radio" name="asignatura" value="IPE1"> IPE1
         <br><br>
         <input type="checkbox" name="profesor[]" value="Isa">Isa
+        <br>
         <input type="checkbox" name="profesor[]" value="Paco">Paco
+        <br>
         <input type="checkbox" name="profesor[]" value="Alberto">Alberto
+        <br>
         <input type="checkbox" name="profesor[]" value="Chema">Chema
+        <br>
         <input type="checkbox" name="profesor[]" value="Santiago">Santiago
+        <br>
         <input type="checkbox" name="profesor[]" value="Tomás">Tomás
         <br><br>
         <input type="text" name="horas" id="horas" placeholder="Horas">
