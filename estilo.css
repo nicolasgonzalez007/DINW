@@ -6,7 +6,7 @@
         width: 500px;
     }
     
-    /*440+(20x2)+(2x2)=484px*/      
+    /*610+(20x2)+(2x2)=654px*/      
     form {
             width: 610px;           
             padding: 20px;                   
@@ -14,7 +14,7 @@
             background-color: rgb(205, 247, 240);
             margin: 0 auto;
         }
-        /*200+15+2x2=219*/
+        /*200+10+2x2=214*/
         #horas {
             width: 200px;           
             height: 25px;           
@@ -22,7 +22,7 @@
             border: 2px solid blue;
             
         }
-        /*350+(15x2)+(2x2)=384*/
+        /*200+(5x2)+(2x2)=214*/
         #informacion {
             width: 200px;           
             height: 100px;          
@@ -30,4 +30,8 @@
             border: 2px solid green;
             resize: none;
             
+        }
+        input[type="checkbox"]
+        {
+            margin-right: 8px;
         }

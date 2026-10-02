@@ -1,0 +1,26 @@
+body{
+    width: 1000px;
+    margin:0 auto;
+}
+
+header{
+    height: 50px;
+    background-color: brown;
+}
+main{/**/
+    background-color: blueviolet;
+    display: flow-root;
+}
+footer{
+    height: 50px;
+    background-color: aqua;
+}
+#caja-sub-1{
+    height: 20px;
+    background-color: beige;
+    float:left;
+}
+#caja-sub-2{
+    height: 20px;
+    float: left;
+}
