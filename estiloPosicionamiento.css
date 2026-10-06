@@ -7,7 +7,7 @@ header{
     height: 50px;
     background-color: brown;
 }
-main{/**/
+main{
     background-color: blueviolet;
     display: flow-root;
 }
@@ -16,11 +16,12 @@ footer{
     background-color: aqua;
 }
 #caja-sub-1{
-    height: 20px;
+    height: 50px;
     background-color: beige;
     float:left;
 }
 #caja-sub-2{
     height: 20px;
     float: left;
+    background-color: rgb(221, 255, 127);
 }
